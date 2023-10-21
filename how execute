@@ -1,0 +1,2 @@
+oc new-app giturl --context-dir=frontend --name=frontend
+oc new-app giturl --context-dir=backend --name=backend  
