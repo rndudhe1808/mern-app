@@ -54,7 +54,7 @@ const App = () => {
 
   return (
     <div className="TodoApp">
-      <Title title="MernApp from Kalyani Gontla" count={data.length} />
+      <Title title="MernApp from RAM@unanati" count={data.length} />
       <TodoForm addTodo={addTodo} />
       <TodoList list={data} removeTodo={removeTodo} />
     </div>
